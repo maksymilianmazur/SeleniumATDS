@@ -1,0 +1,251 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "uzytkownik nie posiada uprawnien do edytowania, przegladanie kalendarza",
+        "description": "",
+        "id": "test-kalendarza-opłaty-mocowej-zgodnie-z-uprawnieniami-użytkownika;uzytkownik-nie-posiada-uprawnien-do-edytowania,-przegladanie-kalendarza",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "uzytkownik loguje sie do systemu Z4100542 oraz Jan123!#Pap",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "uzytkownik wybiera opcje menu Użytkownicy",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "uzytkownik ustawia uprawnienia dotyczące możliwości edycji kalendarza dla uzytkownika Z4100542",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "uzytkownik wybiera opcje menu Kalendarz opłaty mocowej",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "uzytkownik odczytuje godziny mocowe",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "uzytkownik zgodnie z uprawnieniami nie posiada mozliwosci edycji",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "uzytkownik zamyka przegladarke",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "test kalendarza opłaty mocowej zgodnie z uprawnieniami użytkownika",
+    "description": "",
+    "id": "test-kalendarza-opłaty-mocowej-zgodnie-z-uprawnieniami-użytkownika",
+    "keyword": "Feature",
+    "uri": "testOPKalendarzBrakUprawnien.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "uzytkownik wykonuje zmiany w kalendarzu opłaty mocowej w przyszłości",
+        "description": "",
+        "id": "test-kalendarza-opłaty-mocowej-zgodnie-z-uprawnieniami-użytkownika;uzytkownik-wykonuje-zmiany-w-kalendarzu-opłaty-mocowej-w-przyszłości",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "uzytkownik loguje sie do systemu Z4100542 oraz Jan123!#Pap",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "uzytkownik wybiera opcje menu Użytkownicy",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "uzytkownik ustawia uprawnienia dotyczące edycji kalendarza dla uzytkownika na  Z4100542 \u0027Edycja Ustawy Mocowej\u0027",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "uzytkownik wybiera opcje menu Kalendarz opłaty mocowej",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "uzytkownik edytuje godziny mocowe zgodnie ze swoimi uprawnieniami",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "uzytkownik potwierdza wprowadzone zmiany",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "uzytkownik zamyka przegladarke",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "test kalendarza opłaty mocowej zgodnie z uprawnieniami użytkownika",
+    "description": "",
+    "id": "test-kalendarza-opłaty-mocowej-zgodnie-z-uprawnieniami-użytkownika",
+    "keyword": "Feature",
+    "uri": "testOPKalendarzEdycjaUstawyMocowej.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "uzytkownik wykonuje zmiany w kalendarzu opłaty mocowej w przeszłości oraz przyszłości",
+        "description": "",
+        "id": "test-kalendarza-opłaty-mocowej-zgodnie-z-uprawnieniami-użytkownika;uzytkownik-wykonuje-zmiany-w-kalendarzu-opłaty-mocowej-w-przeszłości-oraz-przyszłości",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "uzytkownik loguje sie do systemu Z4100542 oraz Jan123!#Pap",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "uzytkownik wybiera opcje menu Użytkownicy",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "uzytkownik ustawia uprawnienia edycji kalendarza dla uzytkownika Z4100542 na \u0027Zaawansowana Edycja Ustawy Mocowej\u0027",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "uzytkownik wybiera opcje menu Kalendarz opłaty mocowej",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "uzytkownik edytuje godziny mocowe w przyszłości zgodnie ze swoimi uprawnieniami",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "uzytkownik potwierdza wprowadzone zmiany w kalendarzu",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "uzytkownik zamyka przegladarke",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "test kalendarza opłaty mocowej zgodnie z uprawnieniami użytkownika",
+    "description": "",
+    "id": "test-kalendarza-opłaty-mocowej-zgodnie-z-uprawnieniami-użytkownika",
+    "keyword": "Feature",
+    "uri": "testOPKalendarzZaawansowanaEdycjaUstawyMocowej.feature"
+  }
+]

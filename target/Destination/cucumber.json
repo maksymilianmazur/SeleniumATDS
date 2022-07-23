@@ -1,0 +1,431 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11963282601,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.init()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "uzytkownik nie posiada uprawnien do edytowania, przegladanie kalendarza",
+        "description": "",
+        "id": "test-kalendarza-opłaty-mocowej-zgodnie-z-uprawnieniami-użytkownika;uzytkownik-nie-posiada-uprawnien-do-edytowania,-przegladanie-kalendarza",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2929116800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "uzytkownik loguje sie do systemu Z4100542 oraz Jan123!#Pap",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Z4100542",
+                  "offset": 33
+                },
+                {
+                  "val": "Jan123!#Pap",
+                  "offset": 47
+                }
+              ],
+              "location": "Login.uzytkownikZalogujeSieDoSystemu(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2204512100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "uzytkownik wybiera opcje menu Użytkownicy",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Użytkownicy",
+                  "offset": 30
+                }
+              ],
+              "location": "SelectMenu.użytkownikOtwieraZakładkęPPE(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3003835800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "uzytkownik ustawia uprawnienia dotyczące możliwości edycji kalendarza dla uzytkownika Z4100542",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Z4100542",
+                  "offset": 86
+                }
+              ],
+              "location": "KalendarzBrakUprawnien.uzytkownikUstawiaUprawnieniaDotycząceMożliwościEdycjiKalendarzaDlaUzytkownikaZ(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3568186900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "uzytkownik wybiera opcje menu Kalendarz opłaty mocowej",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kalendarz opłaty mocowej",
+                  "offset": 30
+                }
+              ],
+              "location": "SelectMenu.użytkownikOtwieraZakładkęPPE(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1614687400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "uzytkownik odczytuje godziny mocowe",
+            "match": {
+              "location": "KalendarzBrakUprawnien.uzytkownikOdczytujeGodzinyMocowe()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90281100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "uzytkownik zgodnie z uprawnieniami nie posiada mozliwosci edycji",
+            "match": {
+              "location": "KalendarzBrakUprawnien.uzytkownikZgodnieZUprawnieniamiNiePosiadaMozliwosciEdycji()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 701752500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "uzytkownik zamyka przegladarke",
+            "match": {
+              "location": "Login.zamknieciePrzegladarki()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "test kalendarza opłaty mocowej zgodnie z uprawnieniami użytkownika",
+    "description": "",
+    "id": "test-kalendarza-opłaty-mocowej-zgodnie-z-uprawnieniami-użytkownika",
+    "keyword": "Feature",
+    "uri": "testOPKalendarzBrakUprawnien.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10743112300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.init()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "uzytkownik wykonuje zmiany w kalendarzu opłaty mocowej w przyszłości",
+        "description": "",
+        "id": "test-kalendarza-opłaty-mocowej-zgodnie-z-uprawnieniami-użytkownika;uzytkownik-wykonuje-zmiany-w-kalendarzu-opłaty-mocowej-w-przyszłości",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2961215200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "uzytkownik loguje sie do systemu Z4100542 oraz Jan123!#Pap",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Z4100542",
+                  "offset": 33
+                },
+                {
+                  "val": "Jan123!#Pap",
+                  "offset": 47
+                }
+              ],
+              "location": "Login.uzytkownikZalogujeSieDoSystemu(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 720261900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "uzytkownik wybiera opcje menu Użytkownicy",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Użytkownicy",
+                  "offset": 30
+                }
+              ],
+              "location": "SelectMenu.użytkownikOtwieraZakładkęPPE(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2791868001,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "uzytkownik ustawia uprawnienia dotyczące edycji kalendarza dla uzytkownika na  Z4100542 \u0027Edycja Ustawy Mocowej\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": " Z4100542",
+                  "offset": 78
+                }
+              ],
+              "location": "KalendarzEdycjaUstawyMocowej.uzytkownikUstawiaUprawnieniaDotycząceEdycjiKalendarzaDlaUzytkownikaNaEdycjaUstawyMocowej(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6389339100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "uzytkownik wybiera opcje menu Kalendarz opłaty mocowej",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kalendarz opłaty mocowej",
+                  "offset": 30
+                }
+              ],
+              "location": "SelectMenu.użytkownikOtwieraZakładkęPPE(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1381768201,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "uzytkownik edytuje godziny mocowe zgodnie ze swoimi uprawnieniami",
+            "match": {
+              "location": "KalendarzEdycjaUstawyMocowej.uzytkownikEdytujeGodzinyMocoweZgodnieZeSwoimiUprawnieniami()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1185886900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "uzytkownik potwierdza wprowadzone zmiany",
+            "match": {
+              "location": "KalendarzEdycjaUstawyMocowej.uzytkownikPotwierdzaWprowadzoneZmiany()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 723198900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "uzytkownik zamyka przegladarke",
+            "match": {
+              "location": "Login.zamknieciePrzegladarki()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "test kalendarza opłaty mocowej zgodnie z uprawnieniami użytkownika",
+    "description": "",
+    "id": "test-kalendarza-opłaty-mocowej-zgodnie-z-uprawnieniami-użytkownika",
+    "keyword": "Feature",
+    "uri": "testOPKalendarzEdycjaUstawyMocowej.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9941213499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.init()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "uzytkownik wykonuje zmiany w kalendarzu opłaty mocowej w przeszłości oraz przyszłości",
+        "description": "",
+        "id": "test-kalendarza-opłaty-mocowej-zgodnie-z-uprawnieniami-użytkownika;uzytkownik-wykonuje-zmiany-w-kalendarzu-opłaty-mocowej-w-przeszłości-oraz-przyszłości",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6587605300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "uzytkownik loguje sie do systemu Z4100542 oraz Jan123!#Pap",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Z4100542",
+                  "offset": 33
+                },
+                {
+                  "val": "Jan123!#Pap",
+                  "offset": 47
+                }
+              ],
+              "location": "Login.uzytkownikZalogujeSieDoSystemu(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 928295399,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "uzytkownik wybiera opcje menu Użytkownicy",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Użytkownicy",
+                  "offset": 30
+                }
+              ],
+              "location": "SelectMenu.użytkownikOtwieraZakładkęPPE(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2800940800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "uzytkownik ustawia uprawnienia edycji kalendarza dla uzytkownika Z4100542 na \u0027Zaawansowana Edycja Ustawy Mocowej\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Z4100542",
+                  "offset": 65
+                }
+              ],
+              "location": "KalendarzZaawansowanaEdycjaUstawyMocowej.uzytkownikUstawiaUprawnieniaDotycząceMożliwościEdycjiKalendarzaDlaUzytkownikaZNaZaawansowanaEdycjaUstawyMocowej(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3979292299,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "uzytkownik wybiera opcje menu Kalendarz opłaty mocowej",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kalendarz opłaty mocowej",
+                  "offset": 30
+                }
+              ],
+              "location": "SelectMenu.użytkownikOtwieraZakładkęPPE(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 925791800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "uzytkownik edytuje godziny mocowe w przyszłości zgodnie ze swoimi uprawnieniami",
+            "match": {
+              "location": "KalendarzZaawansowanaEdycjaUstawyMocowej.uzytkownikEdytujeGodzinyMocoweWPrzyszłościZgodnieZeSwoimiUprawnieniami()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 667813700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "uzytkownik potwierdza wprowadzone zmiany w kalendarzu",
+            "match": {
+              "location": "KalendarzZaawansowanaEdycjaUstawyMocowej.uzytkownikPotwierdzaWprowadzoneZmianyWKalendarzu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 718119601,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "uzytkownik zamyka przegladarke",
+            "match": {
+              "location": "Login.zamknieciePrzegladarki()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "test kalendarza opłaty mocowej zgodnie z uprawnieniami użytkownika",
+    "description": "",
+    "id": "test-kalendarza-opłaty-mocowej-zgodnie-z-uprawnieniami-użytkownika",
+    "keyword": "Feature",
+    "uri": "testOPKalendarzZaawansowanaEdycjaUstawyMocowej.feature"
+  }
+]
