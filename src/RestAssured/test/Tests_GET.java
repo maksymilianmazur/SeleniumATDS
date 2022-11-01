@@ -1,3 +1,5 @@
+package test;
+
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;

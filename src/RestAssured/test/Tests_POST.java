@@ -1,3 +1,5 @@
+package test;
+
 import io.restassured.http.ContentType;
 import org.json.simple.JSONObject;
 import org.junit.Test;
