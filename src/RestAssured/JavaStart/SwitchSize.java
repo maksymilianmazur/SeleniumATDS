@@ -8,6 +8,5 @@ class SwitchSize {
         System.out.println("Podaj rozmiar S, M, L lub XL");
         String shortSize = scanner.nextLine();
         //String size;
-
     }
 }
